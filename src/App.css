@@ -1,0 +1,43 @@
+/* App styling */
+.App {
+  background-image:radial-gradient(#ecf1f7,#b3b6b8);
+  -webkit-box-reflect: below 1px linear-gradient(to bottom,rgba(0,0,0,0.0),rgba(0,0,0,0.4));
+  border-radius: 10%;
+    height:65vh;
+    width:45vh;
+    margin-top:20vh;
+    margin-left:90vh;
+    display: inline-block;
+}
+
+/* Screen styling */
+.screen{
+  height:30vh;
+    width:36vh;
+    border:black 4px solid;
+    margin-left:4.5vh;
+    margin-top: 3vh;
+}
+
+/* Options screen styling */
+.mainScreen{
+  background-color:white;
+  width:20vh;
+  height:30vh;
+}
+.mainScreen ul{
+  list-style-type: none;
+  margin-left: -5vh;
+}
+
+/* styling for option selected */
+.active{
+  background-color: blue;
+  color:white;
+}
+.fa-chevron-right{
+  color: white;
+  float:right;
+  margin-top:0.5vh;
+}
+
